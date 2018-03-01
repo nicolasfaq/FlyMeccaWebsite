@@ -28,6 +28,9 @@ elseif ($page_name=='criuses.html') {
 elseif ($page_name=='contact.html') {
 	include $browser_t.'/contact.html';
 	}
+elseif ($page_name=='mention.html') {
+	include $browser_t.'/mention.html';
+	}
 elseif ($page_name=='contact-post.html') {
 	include $browser_t.'/contact.html';
 	include 'app/contact.php';
